@@ -1,0 +1,6 @@
+dependencies {
+  implementation module('org.jdom:jdom2:2.0.6') {
+    // Overriding JDOM's dependencies because they don't list jaxen even though it's a hard dependency.
+    dependency 'jaxen:jaxen:1.1.6'
+  }
+}

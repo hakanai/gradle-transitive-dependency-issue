@@ -1,0 +1,4 @@
+rootProject.name = 'root'
+include 'a'
+include 'b'
+include 'c'
